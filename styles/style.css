@@ -197,7 +197,16 @@ nav ends
 /*3rd section starts */
 
 
-
+#bar{
+    height: 60px;
+    width: 10px;
+    background-color: greenyellow;
+}
+#bar-contain{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 #third-sec{
     display: flex;
     gap: 90px;
