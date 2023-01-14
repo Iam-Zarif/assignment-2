@@ -129,7 +129,7 @@ nav ends
     font-size: 16px;
     border-radius: 10px;
     border: 2px solid rgb(205, 209, 200);
-    margin-left: 350px;
+    margin-left: 40%;
 }
 #under-nav-text button:hover{
     border: 2px solid greenyellow;
