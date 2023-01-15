@@ -21,14 +21,15 @@
         padding: 0 30px;
     }
     #under-nav-text h1{
-        font-size: 40px;
+        font-size: 38px;
+        padding: 0 20px;
     }
     .btn-1{
         margin: 0 !important;
         margin-left: 34% !important;
     }
     #under-nav-pic{
-        width: 80%;
+        width: 90%;
     }
     
     /* #nav-left{
@@ -74,7 +75,7 @@
         justify-items: center;
     }
     #fourth-up{
-        width: 86%;
+        width: 80%;
         margin: 0 auto;
     }
     .fourth-img{
@@ -85,6 +86,8 @@
     }
     #fifth-sec-text{
         flex-wrap: wrap;
+        padding: 0 40px;
+        margin:  auto;
     }
     #sixth-icon{
         display: grid;

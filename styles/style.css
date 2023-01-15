@@ -16,7 +16,12 @@
     border-radius: 10px;
     margin-left: 40%;
     margin-top: 100px;
-    transition: border 0.7s, font-size 1s;
+    transition: border 0.7s, font-size 1s linear;
+    
+}
+#btn-experience:hover{
+    border: 5px solid  greenyellow;
+    font-size: 18px;
     
 }
 #fourth-container{
@@ -24,11 +29,7 @@
     width: 86%;
     margin: 0 auto;
 }
-#btn-experience:hover{
-    border: 5px solid  greenyellow;
-    font-size: 20px;
-    
-}
+
 #fourth-down{
     display: flex;
     gap: 100px;
