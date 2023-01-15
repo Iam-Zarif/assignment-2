@@ -141,14 +141,15 @@ nav ends
 .btn-2:hover{
     border: 2px solid greenyellow;
 }
-#second-sec-contain{
+#second-sec-contain,#xtra-sec-contain{
     display: flex;
     margin-top: 140px !important;
     width: 86%;
     margin: 0 auto;
     gap: 60px;
+   
 }
-#second-sec-img{
+#second-sec-img,#xtra-sec-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -352,4 +353,32 @@ fifth ends
     align-items: center;
   }
   
+  /* xtra section */
+
+  #xtra-sec-contain{
+    align-items: center;
+  }
+  .xtra-sec-box{
+    border: 2px solid grey;
+    padding: 15px 22px;
+    border-radius: 10px;
+    transition: box-shadow .6s;
+  }
+  .xtra-sec-box:hover{
+    border: 2px solid rgb(135, 135, 231);
+    box-shadow: 2px 2px 2px 2px gray;
+  }
+  #xtra-sec-img > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #xtra-sec-img div h3{
+    margin-top: 10px;
+    color: orange;
+  }
+  #xtra-sec-img div p{
+    margin-top: 15px;
+  }
 

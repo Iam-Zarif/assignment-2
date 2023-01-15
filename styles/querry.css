@@ -118,4 +118,16 @@
     #under-nav-text p{
         margin: 0;
     }
+
+    /*  */
+    #xtra-sec-contain{
+        flex-direction: column-reverse;
+    }
+    #xtra-sec-img{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .xtra-sec-box img{
+        width: 85%;
+    }
 }
