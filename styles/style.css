@@ -294,7 +294,7 @@ fourth section ends
 */
 /* fifth starts */
 
-#fifth-sec-text, #fifth-sec-text p{
+#fifth-sec-text{
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -91,6 +91,7 @@
         flex-wrap: wrap;
         padding: 0 40px;
         margin:  auto;
+        /* width: 100%; */
     }
     #sixth-icon{
         display: grid;
