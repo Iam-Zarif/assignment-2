@@ -210,7 +210,7 @@ nav ends
 }
 
 #third-sec-right img{
-    margin-top: 25%;
+    margin-top: 20%;
     height: 80%;
     width: 100% ;
     box-shadow: 2px 2px 4px 5px black;
@@ -280,6 +280,11 @@ nav ends
     width: 86%;
     margin: 0 auto;
 }
+.fourth-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* 
 fourth section ends 
@@ -298,6 +303,7 @@ fourth section ends
 }
 #fifth-sec-text h2{
     color: orange;
+    margin-top: 50px;
 }
 #fifth-sec-text p{
     font-size: 13px;
